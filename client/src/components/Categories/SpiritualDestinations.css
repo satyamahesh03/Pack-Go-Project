@@ -1,0 +1,63 @@
+.spiritual-container {
+    text-align: center;
+    padding: 40px 20px;
+    background: #fff8dc;
+   padding-top: 80px;
+    padding-bottom: 60px;
+  }
+  
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #4a4a4a;
+    margin-bottom: 20px;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Ensures 3 columns */
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .spiritual-card {
+    cursor: pointer;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    background: white;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .spiritual-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.2);
+  }
+  
+  .spiritual-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .spiritual-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #7c6e34;
+    padding: 15px;
+    background: white;
+  }
+  
+  /* Responsive Design for Smaller Screens */
+  @media (max-width: 900px) {
+    .grid-container {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns for medium screens */
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .grid-container {
+      grid-template-columns: repeat(1, 1fr); /* 1 column for small screens */
+    }
+  }

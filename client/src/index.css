@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400..840;1,400..840&family=Ga+Maamli&family=Prompt:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  font-family: 'Prompt', sans-serif;
+  background-color: #e5f5f7;
+}
+
+h1, h2, h3, p, ol, ul {
+  font-family: 'Andada Pro', serif;
+}

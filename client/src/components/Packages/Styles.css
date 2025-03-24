@@ -1,0 +1,187 @@
+/* General Styles */
+
+.package-container {
+  width: 90%;
+  margin: 80px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.package-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.package-header h1 {
+  color: #d9534f;
+  font-size: 28px;
+}
+
+/* Image Slider */
+.slider-container {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.slider-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.prev-btn, .next-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.prev-btn { left: 10px; }
+.next-btn { right: 10px; }
+
+/* Trip Details */
+.trip-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.trip-info {
+  width: 65%;
+}
+
+.trip-info h2{
+  color: #d9534f;
+}
+
+.booking-section {
+  width: 30%;
+  text-align: center;
+  background: #f1f1f1;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: bold;
+  color: #d9534f;
+}
+
+.book-now, .wishlist {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.book-now { background: #469d5a; color: white; }
+.wishlist { background-color: #ffc107; }
+
+.book-now:hover{
+  background-color: #18762e;
+}
+
+.wishlist:hover{
+background-color: #a57f0e;
+}
+
+/* Day Wise Plan */
+.day-wise-plan h2 {
+  margin-top: 30px;
+  color: #d9534f;
+}
+
+.day {
+  padding: 10px;
+  margin-top: 10px;
+  background: #e9ecef;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.day h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.day p {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+/* What's Included */
+.included-section {
+  margin-top: 30px;
+  background: #f1f1f1;
+  padding: 15px;
+  border-radius: 10px;
+  
+}
+
+.included-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.included-section li {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.included-section h2{
+  color: #d9534f;
+}
+
+
+
+/* Customer Reviews */
+.customer-reviews {
+  background: #f1f1f1;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+  max-width: 600px;
+
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.customer-reviews h2 {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+  color: #d9534f;
+}
+
+.review {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.review:last-child {
+  border-bottom: none;
+}
+
+.review h3 {
+  font-size: 1.1em;
+  margin: 5px 0;
+}
+
+.review p {
+  font-size: 0.9em;
+  color: #555;
+}

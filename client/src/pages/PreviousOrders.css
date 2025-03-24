@@ -1,0 +1,79 @@
+/* Container with Gradient Background */
+.orders-container {
+    max-width: 1200px;
+    margin: 80px auto;
+    padding: 20px;
+    background-color: #e5f5f7;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: #fff;
+    animation: fadeIn 0.6s ease-in-out;
+  }
+  
+  /* Title */
+  .orders-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #fff;
+    padding-bottom: 10px;
+  }
+  
+  /* Loading & No Orders Message */
+  .loading-text,
+  .no-orders {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #ffeaa7;
+  }
+  
+  /* Orders List */
+  .orders-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Order Card */
+  .order-card {
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s;
+  }
+  
+  
+  /* Order Details */
+  .order-details {
+    flex: 1;
+    text-align: left;
+    padding-left: 15px;
+    color: #333;
+  }
+  
+  .order-details h3 {
+    font-size: 20px;
+    color: #00796b;
+    margin-bottom: 5px;
+  }
+  
+  .order-details p {
+    font-size: 16px;
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  /* Image (if added later) */
+  .order-image {
+    width: 120px;
+    height: 90px;
+    border-radius: 10px;
+    object-fit: cover;
+    border: 2px solid #ddd;
+  }
+  

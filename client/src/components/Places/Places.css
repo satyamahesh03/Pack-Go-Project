@@ -1,0 +1,144 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap'); */
+/* General Layout */
+
+.place-container {
+  padding-top: 80px;
+  background-color: #f4f7fc; /* Light soothing background */
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Header */
+.place-title {
+  text-align: center;
+  font-size: 32px;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Image & Booking Section */
+.place-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.place-images {
+  flex: 1;
+}
+
+.place-images img {
+  width: 550px;
+  height: 350px;
+  margin-left: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  transition: opacity 1s ease-in-out;
+}
+
+/* Booking Section */
+.booking-section {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  margin-right: 40px;
+}
+
+.booking-section h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+.trip-price {
+  font-size: 20px;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.book-now, .wishlist {
+  width: 80%;
+  padding: 12px;
+  margin-top: 10px;
+  font-size: 16px;
+  font-family: 'Andada Pro', serif;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.book-now {
+  background-color: #007bff;
+  color: white;
+}
+
+.book-now:hover {
+  background-color: #0056b3;
+}
+
+.wishlist {
+  background-color: #ff4d4d;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.wishlist:hover {
+  background-color: #e60000;
+}
+
+/* Trip Details & Itinerary */
+.trip-details {
+  background: white;
+  display: flex;
+  padding: 30px;
+  border-radius: 10px;
+  margin-top: 30px;
+  gap: 30px;
+}
+
+.trip-plan {
+  background: #f0f8ff;
+  padding: 15px;
+  border-radius: 8px;
+  /* margin-top: 30px; */
+  padding: 30px;
+}
+
+
+.trip-plan h3 {
+  color: #333;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .place-content {
+    flex-direction: column;
+  }
+
+  .booking-section {
+    width: 100%;
+  }
+}
+
+.place-details{
+  margin: 20px;
+  padding: 30px;
+}
+
+.travel-info{
+  margin: 20px auto;
+  padding: 20px;
+}
+
+ul,ol{
+  list-style: none;
+}
