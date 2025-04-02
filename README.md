@@ -71,9 +71,9 @@ npm run dev
 - **Backend APIs**: Node.js & Express.js handle trip & user data
 - **Deployment**: Vercel (Frontend) & Render (Backend)
 
-## 🌍 Deployment Links
-- **Frontend**: Pack & Go Vercel
-- **Backend**: Hosted on Render
+## 🌍 Deployment Links  
+- **Frontend**: Hosted on [Vercel](https://packngo.vercel.app)
+- **Backend**: Hosted on [Render](https://render.com/) 
 
 ## 📌 Challenges & Solutions
 - **Data Persistence:** Used MongoDB Atlas for reliable storage.
