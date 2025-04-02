@@ -86,7 +86,7 @@ This project is open-source under the **MIT License**.
 
 ## 📩 Contact
 📧 Email: satyamahesh.kolli03@gmail.com  
-🔗 LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/satyamaheshkolli/)  
+🔗 LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/satyamaheshkolli/)  
 
 ---
 
