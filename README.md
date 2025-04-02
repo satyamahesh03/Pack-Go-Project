@@ -5,7 +5,6 @@
 
 ## 🚀 About the Project
 Pack & Go is a travel booking and management platform that simplifies trip planning by offering:
-- **Group & Solo Trip Bookings**
 - **Customizable Itineraries**
 - **Wishlist Feature**
 - **Secure User Authentication**
