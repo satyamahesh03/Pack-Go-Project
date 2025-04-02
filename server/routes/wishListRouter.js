@@ -57,7 +57,7 @@ router.post("/bookings", async (req, res) => {
         service: "gmail",
         auth: {
           user: "packandngo.booking@gmail.com", // Replace with your email
-          pass: "xmvy huwv pjbn bbck", // Replace with your app password (not actual password)
+          pass: "", // Replace with your app password (not actual password)
         },
       });
       console.log(userMail)
