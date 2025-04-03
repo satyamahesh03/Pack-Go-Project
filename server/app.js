@@ -16,7 +16,7 @@ app.get("/",(req,res)=>{
         project:"Pack & Go",
         message:"Welcome to Pack & Go travel service",
         developedBy:"Satya Mahesh",
-        website:"WWW.packandgo.com",
+        website:"packngo.vercel.app",
     });
 });
 
